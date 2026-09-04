@@ -1,0 +1,7 @@
+interface:
+  display_name: FairyGUI 图集切片
+  short_description: 解析 FairyGUI 图集元数据，正确导出旋转切片并生成九宫格拉伸参数
+  brand_color: '#8B5CF6'
+  default_prompt: 使用 $fairygui-atlas-extraction 导出完整的 FairyGUI 精灵，并保留旋转和 scale9Grid 元数据。
+policy:
+  allow_implicit_invocation: true

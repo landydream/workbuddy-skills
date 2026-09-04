@@ -22,6 +22,11 @@ workbuddy-skills/
 | 技能名 | 说明 | 触发场景 |
 |--------|------|----------|
 | example-skill | 示例模板，展示标准结构，可删除 | - |
+| local-webapp-concurrency-ops | 局域网多用户 Web 应用的并发安全与发布运维：原子读写成对替换、乐观锁、双副本分离、发布加固、回归前备份，全部结论有压测数据 | 本地简易服务器并发读写损坏文件、多用户编辑互相覆盖、发布/回归影响在线用户 |
+| codex-cli-mcp-integration | Codex CLI 安装登录、中转 provider 配置、非 git 目录绕过、双向 MCP 接入（Codex 被宿主调 / Codex 挂第三方 MCP）与 Windows 踩坑清单 | 配置 Codex 中转 API、`--skip-git-repo-check`、WorkBuddy/Codex 互挂 MCP server |
+| fairygui-atlas-extraction | 解析 FairyGUI 包元数据与图集纹理，导出完整 PNG 组件，处理旋转/裁剪/九宫格 | 处理 .bin 文件与 *_atlas*.png、图集切片不完整、scale9Grid 资源 |
+| fairygui-package-recovery | 从 Cocos/小游戏构建产物定位并恢复 FairyGUI 包 XML，修复重新分配的包 ID 与组件 ID | 只有构建产物需要资源恢复、迁移、重新导入 |
+| fairygui-ui-page-builder | 分析 FairyGUI 工程与效果图，创建/修正页面 XML，处理注册、尺寸、控制器与资源引用 | 按设计图还原页面、修复引用与布局、拆分公共组件 |
 
 ## 安装方式
 

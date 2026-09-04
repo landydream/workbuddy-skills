@@ -1,0 +1,7 @@
+interface:
+  display_name: "FairyGUI 包恢复"
+  short_description: "恢复 FGUI 二进制、图集切片与导入后资源 ID"
+  default_prompt: "使用 $fairygui-package-recovery 定位并恢复 Cocos 构建中的 FairyGUI 包，拆分图集并修复导入后的 ID 引用。"
+policy:
+  allow_implicit_invocation: true
+
