@@ -27,6 +27,8 @@ workbuddy-skills/
 | fairygui-atlas-extraction | 解析 FairyGUI 包元数据与图集纹理，导出完整 PNG 组件，处理旋转/裁剪/九宫格 | 处理 .bin 文件与 *_atlas*.png、图集切片不完整、scale9Grid 资源 |
 | fairygui-package-recovery | 从 Cocos/小游戏构建产物定位并恢复 FairyGUI 包 XML，修复重新分配的包 ID 与组件 ID | 只有构建产物需要资源恢复、迁移、重新导入 |
 | fairygui-ui-page-builder | 分析 FairyGUI 工程与效果图，创建/修正页面 XML，处理注册、尺寸、控制器与资源引用 | 按设计图还原页面、修复引用与布局、拆分公共组件 |
+| ai-multi-session-repo-governance | 多人多 AI 并行开发的仓库治理：零知识 AI 入口、三层文档、待合并提案流、机械门禁、决策日志 | 仓库要接多家 AI 工具、多 AI 会话并行改码、文档腐烂/分叉 |
+| game-module-dev-cocos-fgui | Cocos+FairyGUI 模块化开发与协议迁移：模块包自洽、五定点插入、编号纪律、FGUI 静默空白坑、static 生命周期 | 在既有游戏框架上开发新业务模块、移植旧模块、接入新协议 |
 
 ## 安装方式
 
